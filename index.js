@@ -18,10 +18,6 @@ function draw() {
   fill(0);
   fill(0, 0, 0);
   rect(30, 20, 20, 20);
-  ellipse(40, 60, 5, 5);
-  ellipse(40, 80, 7, 7);
-  ellipse(40, 100, 12, 12);
-
 
   if (mouseIsPressed) {
     var px = pmouseX,
