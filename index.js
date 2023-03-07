@@ -52,7 +52,6 @@ function time() {
     timer --;
   }
  if (timer == 0) {
-   save('myCanvas.jpg');
    textAlign(CENTER, CENTER);
    text("DRAWING OVER! Press s to save your image.", width/2, height/2);
  }
