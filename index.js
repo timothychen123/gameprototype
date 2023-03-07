@@ -52,10 +52,15 @@ function time() {
     timer --;
   }
  if (timer == 0) {
-   save('myCanvas.jpg');
    textAlign(CENTER, CENTER);
-   text("DRAWING OVER", width/2, height/2);
+   text("DRAWING OVER! Press s to save your image.", width/2, height/2);
  }
+}
+
+function keyTyped() {
+  if (key == 's') {
+    saveCanvas('photo', 'png');
+  }
 }
 
 function randomWord() {
